@@ -118,7 +118,7 @@ export default [
       {
         files: ["**/angular/**"],
         parserOptions: {
-          project: ["tsconfig.app.json", "tsconfig.spec.json"],
+          project: ["tsconfig.app.json"],
           createDefaultProgram: true,
         },
         extends: [
